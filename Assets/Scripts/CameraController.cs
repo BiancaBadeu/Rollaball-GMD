@@ -23,4 +23,5 @@ public class CameraController : MonoBehaviour
         // Maintain the same offset between the camera and player throughout the game.
         transform.position = player.transform.position + offset;
     }
+
 }
